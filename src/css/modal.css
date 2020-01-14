@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.modal-container{
+    font-family: "Roboto", sans-serif;
+    width: 20%;
+    min-height: 350px;
+    margin:20px;
+    margin-right: 5%;
+    float: right;
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+
+}
+
+.modal-field-title{
+    padding: 3px 8px;
+    text-align: center;
+    margin: 0px auto;
+    font-weight: 500;
+    color: #AEB6C5;
+    font-size:13px;
+    
+}
+.modal-field-text{
+    padding: 0px 10px 5px 10px;
+    text-align: center;
+    margin: 0px auto;
+    color: #292E5D;
+    font-weight: 700;
+}
+.modal-title{
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    margin: 0px auto;
+    color: #292E5D;
+    font-weight: 700;
+    font-size:18px;
+    width: 85%;
+    border-bottom: 1px solid #AEB6C5;
+}
+.avatar-container{
+    width: 20%;
+    margin: 0 auto;
+    margin-top:5%;
+}
+.avatar{
+    width: 100%;
+}
+.close-button{
+    width: 8%;
+    position: absolute;
+    top: 3%;
+    right: 3%;
+}
+
+.modal-content-row{
+    width: 35%;
+    margin-left:10%;
+    display: inline-block;
+    padding-bottom: 5px;
+    word-wrap: break-word;
+}
+
+.modal-content-title{
+padding: 12px 0px 2px 2px;
+margin: 0px auto;
+font-weight: 500;
+color: #AEB6C5;
+font-size:15px;
+}
+
+.modal-content-text{
+padding: 2px 4px;
+margin: 0px auto;
+font-weight: 600;
+color: #292E5D;
+font-size:15px;
+}
+
+@media all and (max-width: 800px) {
+
+	.modal-content-row{
+        width: 90%;
+        margin-left:5%;
+        display: block;
+        padding-bottom: 5px;
+    }
+
+    .avatar-container{
+        width: 30%;
+    }
+
+    .close-button{
+        width: 16%;
+        top:2%;
+    }
+
+}
+
+@media all and (max-width: 600px) {
+
+    .avatar-container{
+        width: 50%;
+    }
+}
+

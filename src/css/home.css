@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+.home-title{
+    font-family: "Roboto", sans-serif;
+    color:white;
+    margin: auto;
+    font-weight: 500;
+    text-align: center;
+    font-size:26px;
+    margin-top: 30px;
+}

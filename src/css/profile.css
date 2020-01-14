@@ -1,0 +1,33 @@
+.content-container{
+    background-color: #ffffff;
+    margin:10px;
+    width:35%;
+    min-height: 400px;
+    border-radius: 3px;
+}
+
+.profile-title{
+    padding: 20px 10px 8px 10px;
+    margin: 0px auto;
+    color: #292E5D;
+    font-weight: 700;
+    font-size:20px;
+    width: 93%;
+    border-bottom: 1px solid #AEB6C5;
+}
+
+.content-key{
+    padding: 15px 0px 2px 20px;
+margin: 0px auto;
+font-weight: 500;
+color: #AEB6C5;
+font-size:16px;
+}
+
+.content-value{
+    padding: 0px 0px 0px 20px;
+    margin: 0px auto;
+    font-weight: 600;
+    color: #292E5D;
+    font-size:20px;
+}
